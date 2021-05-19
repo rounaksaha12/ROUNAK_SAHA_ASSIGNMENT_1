@@ -48,6 +48,11 @@ html{
     margin:50px 30px 30px 30px;
     
 }
+@media (max-width: 480px) {
+  .intro_flex {
+    flex-direction: column;
+  }
+}
 .intro_left{
     font-family: 'Anaheim';
     width:40%;
