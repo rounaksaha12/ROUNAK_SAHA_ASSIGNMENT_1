@@ -74,13 +74,13 @@ html{
     font-family: 'Anaheim';
     width:100%;
     margin-right: 20px;
-    padding:20px;
+    padding:0;
   }
   .intro_right{
     font-family: 'Anaheim';
     width:100%;
     margin-right: 20px;
-    padding:20px;
+    padding:0px;
     
    }
 }
