@@ -48,11 +48,7 @@ html{
     margin:50px 30px 30px 30px;
     
 }
-@media (max-width: 480px) {
-  .intro_flex {
-    flex-direction: column;
-  }
-}
+
 .intro_left{
     font-family: 'Anaheim';
     width:40%;
@@ -69,6 +65,24 @@ html{
 }
 .intro-left img{
     width: 10%;
+}
+@media (max-width: 480px) {
+  .intro_flex {
+    flex-direction: column;
+  }
+  .intro_left{
+    font-family: 'Anaheim';
+    width:100%;
+    margin-right: 20px;
+    padding:20px;
+  }
+  .intro_right{
+    font-family: 'Anaheim';
+    width:100%;
+    margin-right: 20px;
+    padding:20px;
+    
+   }
 }
 .specialities-button{
     background-color:rgb(103,162,46);
